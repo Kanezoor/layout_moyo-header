@@ -1,6 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -17,6 +29,40 @@
     />
   </head>
   <body>
-    <h1>Moyo header</h1>
+    <header>
+      <img
+        src="images/logo.png"
+        alt="Site logo"
+      />
+
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="#Apple"
+                class="is-active"
+              >
+                Apple
+              </a>
+            </li>
+            <li><a href="Samsung">Samsung</a></li>
+            <li><a href="Smartphones">Smartphones</a></li>
+            <li>
+              <a
+                href="Laptops&Computers"
+                data-qa="hover"
+              >
+                Laptops & Computers
+              </a>
+            </li>
+            <li><a href="Gadgets">Gadgets</a></li>
+            <li><a href="Tablets">Tablets</a></li>
+            <li><a href="Photo">Photo</a></li>
+            <li><a href="Video">Video</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
