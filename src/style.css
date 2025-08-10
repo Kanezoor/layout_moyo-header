@@ -13,7 +13,6 @@ html {
 
 nav {
   margin-right: 50px;
-  height: 60px;
   align-items: center;
   align-self: center;
   align-content: center;
@@ -22,7 +21,6 @@ nav {
 ul {
   list-style: none;
   display: flex;
-  height: 60px;
   margin: 0;
   align-self: center;
   align-items: center;
@@ -36,8 +34,6 @@ header {
   width: 100%;
   margin: 0;
   padding: 0;
-
-  /* height: 60px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,6 +43,7 @@ header {
 }
 
 img {
+  display: block;
   margin-left: 50px;
 }
 
@@ -57,7 +54,6 @@ div.navigation {
 }
 
 li {
-  height: 60px;
   font-size: 12px;
   align-items: center;
   align-self: center;
@@ -92,7 +88,6 @@ a {
 }
 
 nav a {
-  height: 60px;
   color: black;
   text-align: center;
   text-decoration: none;
