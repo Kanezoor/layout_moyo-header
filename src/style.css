@@ -45,16 +45,16 @@ html {
   line-height: 100%;
 }
 
-.navigation li + li {
+.navigation .nav_link + .nav_link {
   margin-left: 20px;
 }
 
-.navigation a.is-active {
+.navigation .is-active {
   position: relative;
   color: var(--link-color);
 }
 
-.navigation a.is-active::after {
+.navigation .is-active::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -65,19 +65,20 @@ html {
   border-radius: 2px;
 }
 
-.nav_link a {
+.nav_link .a_link {
   display: flex;
   height: 60px;
   align-items: center;
-}
-
-.navigation a {
-  color: black;
-  text-align: center;
   text-decoration: none;
+  color: black;
 }
 
-.navigation a:hover {
+.navigation .is-active.a_link {
+  text-align: center;
+  color: var(--link-color);
+}
+
+.navigation .a_link:hover {
   color: var(--link-color);
   background-color: #fff;
 }
