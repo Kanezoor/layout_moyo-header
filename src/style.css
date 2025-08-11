@@ -45,7 +45,7 @@ html {
   line-height: 100%;
 }
 
-.navigation .nav_link + .nav_link {
+.nav_link + .nav_link {
   margin-left: 20px;
 }
 
